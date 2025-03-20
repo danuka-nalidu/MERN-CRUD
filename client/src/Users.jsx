@@ -29,7 +29,7 @@ function Users() {
                                 <td>{user.Email}</td>
                                 <td>{user.Age}</td>
                                 <td>
-                                    <Link to="/update" className="btn btn-success">Edit</Link>
+                                    <Link to="/update" className="btn btn-success">Update</Link>
                                     <button>Delete</button>
                                 </td>
                             </tr>;
