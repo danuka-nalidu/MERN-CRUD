@@ -8,6 +8,11 @@ function Users() {
             Email: "danukanalidu2002@gmail.com",
             Age: 22,
         },
+        {
+            Name: "Lakshan",
+            Email: "lakshanwijesekara@gmail.com",
+            Age: 27,
+        }
     ]);
     return (
         <div className="d-flex vh-100 bg-primary justify-content-center align-items-center">
