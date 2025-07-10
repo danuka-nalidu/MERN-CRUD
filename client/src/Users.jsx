@@ -9,7 +9,7 @@ function Users() {
   useEffect(() => {
     axios
       .get("http://localhost:3001")
-      .then((result) => setUsers(result.data))
+      .then((result) => setUsers(result.data)) 
       .catch((err) => console.log(err));
   }, []);
 
@@ -36,7 +36,7 @@ function Users() {
                   <td>{user.email}</td>
                   <td>{user.age}</td>
                   <td>
-                    <Link to="/update" className="btn btn-success">
+                    <Link to={`/update/${user._id}`} className="btn btn-success">
                       Update
                     </Link>
                     <button className="btn btn-danger">Delete</button>
